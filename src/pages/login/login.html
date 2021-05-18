@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-navbar color="secondary">
+    <ion-title>LoginPage</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+  <div class="logo">
+    <img src="assets/imgs/logo.png" alt="" width="100" height="100">
+  </div>
+  <ion-card>
+    <ion-card-content>
+      <ion-item>
+        <ion-label floating>Email address</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label floating>Password</ion-label>
+        <ion-input type="password"></ion-input>
+      </ion-item>
+    </ion-card-content>
+    <ion-row>
+      <button ion-button (click)="navigateToPage('RegisterPage')">Register</button>
+      <button ion-button (click)="navigateToPage('TabsPage')">Login</button>
+    </ion-row>
+  </ion-card>
+</ion-content>

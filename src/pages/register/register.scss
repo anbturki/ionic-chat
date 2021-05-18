@@ -1,0 +1,21 @@
+page-register {
+  .logo {
+    background-color: #fff;
+    box-shadow: 1px 3px 6px #ccc;
+    text-align: center;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    color: #999;
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+  
+  ion-card {
+    ion-row {
+      padding: 20px
+    }
+  }
+}
